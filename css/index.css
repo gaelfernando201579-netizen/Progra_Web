@@ -1,0 +1,47 @@
+/* Estilos generales de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Configuración de la lista */
+ul {
+    list-style: none; /* Oculta los puntos de la lista */
+    padding: 0;
+    max-width: 400px;
+    margin: 0 auto; /* Centra la caja de la lista en la pantalla */
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Diseño de los enlaces (botones) */
+a {
+    display: block; /* Hace que toda el área del rectángulo sea clickeable */
+    background-color: white;
+    color: #D84315; /* Naranja rojizo */
+    text-decoration: none; /* Quita la línea de subrayado */
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Esquinas ligeramente redondeadas */
+}
+
+/* Efecto al pasar el ratón */
+a:hover {
+    background-color: #D84315;
+    color: white;
+}
