@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arreglos - Ejercicio 14</title>
+    <link rel="stylesheet" href="css/ejercicio14.css">
+    <link href="https://fonts.googleapis.com/css?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor-calculadora">
+        <h1>Arreglos</h1>
+        <p class="subtitulo">Operaciones con Arreglos</p>
+        
+        <div class="grupo-formulario">
+            <label for="tex">Ingresa tu Arreglo:</label>
+            <input type="text" id="tex" placeholder="Ej: 1,2,3,4,5" required>
+            <span id="mensaje-error" class="error"></span>
+        </div>
+
+        <!-- Botón para iniciar la conversión -->
+        <button type="button" class="boton-convertir" id="btn-convertir">
+            Realizar Operaciones
+        </button>
+
+        <!-- Caja de texto bloqueada para mostrar el resultado -->
+        <div class="grupo-formulario resultado-grupo">
+            <label for="arreglo1">Número Mayor:</label>
+            <input type="text" id="arreglo1" readonly placeholder="El resultado aparecerá aquí">
+        </div>
+        <div class="grupo-formulario resultado-grupo">
+            <label for="arreglo2">Número Menor:</label>
+            <input type="text" id="arreglo2" readonly placeholder="El resultado aparecerá aquí">
+        </div>
+        <div class="grupo-formulario resultado-grupo">
+            <label for="arreglo3">Promedio de los números</label>
+            <input type="text" id="arreglo3" readonly placeholder="El resultado aparecerá aquí">
+        </div>
+    </div>
+
+    <script src="js/ejercicio14.js"></script>
+</body>
+</html>
