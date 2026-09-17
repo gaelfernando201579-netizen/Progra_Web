@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudiantes - Ejercicio 15</title>
+    <link rel="stylesheet" href="css/ejercicio15.css">
+    <link href="https://fonts.googleapis.com/css?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/image.png">
+</head>
+<body>
+    <div class="contenedor-calculadora">
+        <h1>Registro de Estudiantes</h1>
+        <p class="subtitulo">Datos sobre los estudiantes</p>
+        
+        <div class="grupo-formulario">
+            <label for="tex">Ingresa el nombre del estudiante:</label>
+            <input type="text" id="tex1" placeholder="Ej: Saraí" required>
+            <span id="mensaje-error" class="error"></span>
+        </div>
+
+        <div class="grupo-formulario">
+            <label for="tex">Ingresa la calificación del Estudiante:</label>
+            <input type="number" id="tex2" placeholder="Ej: 100" required>
+            <span id="mensaje-error" class="error"></span>
+        </div>
+
+        <button type="button" class="boton-convertir" id="btn-agregar">
+            Agregar Estudiante
+        </button>
+
+        <button type="button" class="boton-convertir" id="btn-calcular">
+            Calcular
+        </button>
+
+        <div class="grupo-formulario resultado-grupo">
+            <label for="arreglo1">Estudiante con el Mayor Promedio:</label>
+            <input type="text" id="arreglo1" readonly placeholder="El resultado aparecerá aquí">
+        </div>
+        <div class="grupo-formulario resultado-grupo">
+            <label for="arreglo2">Estudiante con el Menor Promedio:</label>
+            <input type="text" id="arreglo2" readonly placeholder="El resultado aparecerá aquí">
+        </div>
+        <div class="grupo-formulario resultado-grupo">
+            <label for="arreglo3">Promedio de las Calificaciones:</label>
+            <input type="text" id="arreglo3" readonly placeholder="El resultado aparecerá aquí">
+        </div>
+        <br>
+        <a href="index.html" style="display: inline-block; padding: 8px 16px; background-color: #f1f5f9; color: #334155; text-decoration: none; border-radius: 6px; font-family: sans-serif; font-size: 14px; font-weight: bold; border: 1px solid #cbd5e1;">&#8592; Volver al inicio</a>
+    </div>
+
+    <script src="js/ejercicio15.js"></script>
+</body>
+</html>

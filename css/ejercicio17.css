@@ -1,0 +1,94 @@
+:root {
+    --color-primario: #3085d6;
+    --color-peligro: #d33;
+    --color-fondo: #f4f4f9;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--color-fondo);
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.contenedor {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 450px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.entrada-datos {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#btn-agregar {
+    background-color: var(--color-primario);
+    padding: 10px 15px;
+}
+
+#btn-agregar:hover {
+    background-color: #256baf;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background: #eeeeee;
+    margin-bottom: 10px;
+    padding: 12px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-eliminar {
+    background-color: var(--color-peligro);
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+.btn-eliminar:hover {
+    background-color: #b32a2a;
+}
+
+footer {
+    position: fixed;
+    bottom: 30px; 
+    left: 50%;
+    transform: translateX(-50%); 
+}
