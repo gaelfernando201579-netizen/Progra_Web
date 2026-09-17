@@ -1,23 +1,18 @@
-/* 1. VARIABLES CSS (Custom Properties) */
 :root {
-    /* Color principal (naranja-rojizo) */
     --color-primario: #ad7610; 
-    /* Color acento al interactuar */
     --color-secundario: #d1bc00;
     --color-fondo: #fff9df;
     --color-texto: #241a00;
     --color-borde: #E9ECEF;
-    --color-error: #94771a; /* Rojo para validaciones */
+    --color-error: #94771a;
 }
 
-/* 2. RESET BÁSICO */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* 3. ESTILOS GENERALES */
 body {
     font-family: 'Inter', sans-serif;
     background-color: var(--color-fondo);
@@ -31,7 +26,6 @@ body {
     min-height: 100vh;
 }
 
-/* 4. CONTENEDOR PRINCIPAL */
 .contenedor-calculadora {
     width: 100%;
     max-width: 450px;
@@ -55,7 +49,6 @@ h1 {
     font-size: 14px;
 }
 
-/* 5. GRUPOS DE FORMULARIO */
 .grupo-formulario {
     margin-bottom: 20px;
 }
@@ -67,7 +60,6 @@ label {
     font-size: 14px;
 }
 
-/* 6. INPUTS */
 input {
     width: 100%;
     padding: 12px 15px;
@@ -83,7 +75,6 @@ input:focus {
     box-shadow: 0 0 3px rgba(255, 112, 67, 0.3);
 }
 
-/* Estilo especial para el input readonly */
 input[readonly] {
     background-color: #f1f3f5;
     color: #495057;
@@ -91,7 +82,6 @@ input[readonly] {
     font-weight: 600;
 }
 
-/* 7. BOTÓN DE CONVERSIÓN */
 .boton-convertir {
     width: 100%;
     background-color: var(--color-primario);
@@ -113,7 +103,6 @@ input[readonly] {
     background-color: #ee940c;
 }
 
-/* 8. MENSAJE DE ERROR */
 .error {
     color: var(--color-error);
     font-size: 12px;

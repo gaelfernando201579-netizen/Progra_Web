@@ -17,30 +17,27 @@ p {
     margin-bottom: 30px;
 }
 
-/* Configuración de la lista */
 ul {
-    list-style: none; /* Oculta los puntos de la lista */
+    list-style: none; 
     padding: 0;
     max-width: 400px;
-    margin: 0 auto; /* Centra la caja de la lista en la pantalla */
+    margin: 0 auto; 
 }
 
 li {
     margin-bottom: 10px;
 }
 
-/* Diseño de los enlaces (botones) */
 a {
-    display: block; /* Hace que toda el área del rectángulo sea clickeable */
+    display: block; 
     background-color: white;
-    color: #D84315; /* Naranja rojizo */
-    text-decoration: none; /* Quita la línea de subrayado */
+    color: #D84315; 
+    text-decoration: none; 
     padding: 15px;
     border: 1px solid #ddd;
-    border-radius: 8px; /* Esquinas ligeramente redondeadas */
+    border-radius: 8px; 
 }
 
-/* Efecto al pasar el ratón */
 a:hover {
     background-color: #D84315;
     color: white;
